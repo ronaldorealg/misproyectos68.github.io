@@ -1,0 +1,551 @@
+<meta charset="UTF-8">
+<d1> ENcRIPTADOR DE PALABRAS </d1> 
+
+<html dir="ltr" lang="es" itemscope itemtype="http://schema.org/WebPage">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Traductor Morse - Código Morse Traductor | Morse Decoder</title>
+<meta name="robots" content="index,follow">
+<meta name="description" property="og:description" content="Traductor código Morse, traduce el código Morse en texto y el texto en código Morse, reproduce el sonido del código Morse.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://morsedecoder.com/es/">
+<meta name="twitter:title" content="Traductor Morse - Código Morse Traductor | Morse Decoder">
+<meta name="twitter:description" content="Traductor código Morse, traduce el código Morse en texto y el texto en código Morse, reproduce el sonido del código Morse.">
+<meta name="twitter:image" content="https://morsedecoder.com/dist/icons/morsify.jpg">
+<meta property="og:image" content="https://morsedecoder.com/dist/icons/morsify.jpg">
+<meta property="og:locale" content="es_MX">
+<meta property="og:site_name" content="Traductor Morse - Código Morse Traductor | Morse Decoder">
+<meta property="og:url" content="https://morsedecoder.com/es/">
+<meta property="og:title" content="Traductor Morse - Código Morse Traductor | Morse Decoder">
+<meta property="og:type" content="website">
+<meta itemprop="name" content="Traductor Morse - Código Morse Traductor | Morse Decoder">
+<meta itemprop="description" content="">
+<meta itemprop="image" content="https://morsedecoder.com/dist/icons/morsify.jpg">
+<meta name="msapplication-config" content="https://morsedecoder.com/dist/icons/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="theme-color" content="#000000">
+<meta name="google-site-verification" content="Zvj_FU4csAyPujucN4Da8eQn3uYACnfFYWwUjZ_W-HY">
+<link rel="apple-touch-icon" sizes="180x180" href="https://morsedecoder.com/dist/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="https://morsedecoder.com/dist/icons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://morsedecoder.com/dist/icons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="https://morsedecoder.com/dist/icons/site.webmanifest">
+<link rel="mask-icon" href="https://morsedecoder.com/dist/icons/safari-pinned-tab.svg" color="#000000">
+<link rel="shortcut icon" href="https://morsedecoder.com/dist/icons/favicon.ico">
+<link href="https://morsedecoder.com/dist/A.style.css,qid=2105ec3c23de67d7f612db13cae5a030.pagespeed.cf.OrhIkYICXU.css" rel="stylesheet" type="text/css">
+<link rel="canonical" href="https://morsedecoder.com/es/">
+<script src="https://cookie-cdn.cookiepro.com/consent/971fbe7a-844a-48eb-b887-aef0a7392310/otSDKStub.js" data-document-language="true" data-pagespeed-orig-type="text/javascript" charset="UTF-8" data-domain-script="971fbe7a-844a-48eb-b887-aef0a7392310" type="text/psajs" data-pagespeed-orig-index="0"></script>
+<script data-pagespeed-orig-type="text/javascript" type="text/psajs" data-pagespeed-orig-index="1">function OptanonWrapper(){}</script>
+<script src="https://cdn.adapex.io/hb/aaw.mrsdcd.js" async type="text/psajs" data-pagespeed-orig-index="2"></script>
+</head>
+<body class="is-ltr">
+<nav class="navbar is-ltr is-light is-shadowless">
+<div class="container">
+<div class="navbar-brand">
+<a class="navbar-item" href="https://morsedecoder.com">
+<img width="28" height="28" alt="Traductor Morse - Código Morse Traductor" class="img-navbar" src="https://morsedecoder.com/dist/icons/morsedecoder-logo.png">
+Morse Decoder </a>
+<div id="toggle-menu" class="navbar-burger burger" data-target="menu">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+<div id="menu" class="navbar-menu">
+<div class="navbar-start">
+<a aria-label="Github" class="navbar-item" href="https://github.com/ozdemirburak/morse-decoder">
+<span class="icon-text">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></span>
+<span>Github</span>
+</span>
+</a>
+<div id="embed-open" class="navbar-item">
+<span class="icon-text">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></span>
+<span>Insertar</span>
+</span>
+</div>
+<div class="navbar-item has-dropdown is-hoverable">
+<a class="navbar-link">
+<span class="icon-text">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path class="st0" d="M2,16c0.1,0,8-5,9-7c0.6-1.3,1-5,1-5h3H1h7V1"/><line class="st0" x1="4" y1="8" x2="12" y2="16"/><polygon class="st0" points="15,19 21,19 23,23 18,11 13,23 "/></svg></span>
+<span>Español</span>
+<span class="is-hidden-tablet has-dropdown-icon"></span>
+</span>
+</a>
+<div class="navbar-dropdown is-hidden-mobile is-boxed">
+<a class="navbar-item " href="https://morsedecoder.com/id/">
+Bahasa Indonesia </a>
+<a class="navbar-item " href="https://morsedecoder.com/cs/">
+Čeština </a>
+<a class="navbar-item " href="https://morsedecoder.com/da/">
+Dansk </a>
+<a class="navbar-item " href="https://morsedecoder.com/de/">
+Deutsch </a>
+<a class="navbar-item " href="https://morsedecoder.com">
+English </a>
+<a class="navbar-item is-active" href="https://morsedecoder.com/es/">
+Español </a>
+<a class="navbar-item " href="https://morsedecoder.com/fr/">
+Français </a>
+<a class="navbar-item " href="https://morsedecoder.com/it/">
+Italiano </a>
+<a class="navbar-item " href="https://morsedecoder.com/nl/">
+Nederlands </a>
+<a class="navbar-item " href="https://morsedecoder.com/pl/">
+Polski </a>
+<a class="navbar-item " href="https://morsedecoder.com/pt/">
+Português </a>
+<a class="navbar-item " href="https://morsedecoder.com/ro/">
+Română </a>
+<a class="navbar-item " href="https://morsedecoder.com/sv/">
+Svenska </a>
+<a class="navbar-item " href="https://morsedecoder.com/fi/">
+Suomi </a>
+<a class="navbar-item " href="https://morsedecoder.com/vi/">
+Tiếng Việt </a>
+<a class="navbar-item " href="https://morsedecoder.com/tr/">
+Türkçe </a>
+<a class="navbar-item " href="https://morsedecoder.com/el/">
+ελληνικά </a>
+<a class="navbar-item " href="https://morsedecoder.com/ru/">
+русский </a>
+<a class="navbar-item " href="https://morsedecoder.com/he/">
+עברי </a>
+<a class="navbar-item " href="https://morsedecoder.com/ar/">
+العربية </a>
+<a class="navbar-item " href="https://morsedecoder.com/th/">
+ภาษาไทย </a>
+<a class="navbar-item " href="https://morsedecoder.com/ko/">
+한국어 </a>
+<a class="navbar-item " href="https://morsedecoder.com/zh/">
+中文 </a>
+<a class="navbar-item " href="https://morsedecoder.com/ja/">
+日本語 </a>
+</div>
+</div>
+</div>
+<div class="navbar-end">
+<div class="navbar-item">
+<div class="field is-grouped">
+<p class="control">
+<a target="_blank" rel="nofollow noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmorsedecoder.com%2Fes%2F&t=Traductor%20Morse%20-%20C%C3%B3digo%20Morse%20Traductor%20%7C%20Morse%20Decoder" class="button button-facebook">
+<span class="icon-text">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></span>
+<span>Compartir</span>
+</span>
+</a>
+</p>
+<p class="control">
+<a target="_blank" rel="nofollow noopener" href="https://twitter.com/intent/tweet?text=Traductor%20Morse%20-%20C%C3%B3digo%20Morse%20Traductor%20%7C%20Morse%20Decoder%20-%20https%3A%2F%2Fmorsedecoder.com%2Fes%2F" class="button button-twitter">
+<span class="icon-text">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></span>
+<span>Twittear</span>
+</span>
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<section class="hero is-small is-custom-hero has-lawrencium-gradient">
+<div class="hero-body">
+<div class="container">
+<h1 class="title">Traductor Morse - Código Morse Traductor</h1>
+<p class="subtitle">Traductor código Morse, traduce el código Morse en texto y el texto en código Morse, reproduce el sonido del código Morse.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="container">
+<div class="columns is-multiline">
+<div id="a-top" class="column is-12 has-level-margin mt-0">
+<div data-aaad='true' data-aa-adunit='/22247219933/MRSDCD_mob_320x50_mid_1'></div>
+<div data-aaad='true' data-aa-adunit='/22247219933/MRSDCD_970x250_mid_1'></div>
+</div>
+<div class="column is-6 has-text-grey-dark">
+<div class="level is-mobile">
+<div class="level-left">
+<div class="level-item is-pointer clipboard" aria-label="Copiar al portapapeles" data-balloon-pos="down" data-clipboard-target="#input" data-clipboard-copied="Copiado!">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg></span>
+</div>
+<div class="level-item is-pointer" id="playAudio" aria-label="Reproducir el audio" data-balloon-pos="down">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></span>
+</div>
+<div class="level-item is-pointer is-hidden" id="stopAudio" aria-label="Detener el audio" data-balloon-pos="down">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg></span>
+</div>
+</div>
+<div class="level-item has-text-centered">
+<label class="label" for="input">Texto</label>
+</div>
+<div class="level-right">
+<div class="level-item is-pointer shareFacebook" data-target="input" aria-label="Compartir" data-balloon-pos="down">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></span>
+</div>
+<div class="level-item is-pointer shareTwitter" data-target="input" aria-label="Twittear" data-balloon-pos="down">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></span>
+</div>
+</div>
+</div>
+<div class="field">
+<div class="control">
+<textarea class="textarea" id="input"></textarea>
+</div>
+</div>
+</div>
+<div class="column is-6 has-text-grey-dark">
+<div class="level is-mobile">
+<div class="level-left">
+<div class="level-item is-pointer clipboard" aria-label="Copiar al portapapeles" data-balloon-pos="down" data-clipboard-target="#output" data-clipboard-copied="Copiado!">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg></span>
+</div>
+<div class="level-item is-pointer" id="playMorse" aria-label="Reproducir el audio" data-balloon-pos="down">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></span>
+</div>
+<div class="level-item is-pointer is-hidden" id="stopMorse" aria-label="Detener el audio" data-balloon-pos="down">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg></span>
+</div>
+</div>
+<div class="level-item has-text-centered">
+<label class="label" for="output">Código Morse</label>
+</div>
+<div class="level-right">
+<div class="level-item is-pointer shareFacebook" data-target="output" aria-label="Compartir" data-balloon-pos="down">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></span>
+</div>
+<div class="level-item is-pointer shareTwitter" data-target="output" aria-label="Twittear" data-balloon-pos="down">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></span>
+</div>
+</div>
+</div>
+<div class="field">
+<div class="control">
+<textarea class="textarea" id="output"></textarea>
+</div>
+</div>
+</div>
+<div class="column is-12">
+<div class="level is-mobile options has-text-centered">
+<div id="showOptions" class="level-item">
+<span class="icon-text">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></span>
+<span class="is-hidden-mobile">Opciones</span>
+</span>
+</div>
+<div id="hideOptions" class="level-item is-hidden">
+<span class="icon-text">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></span>
+<span class="is-hidden-mobile">Ocultar opciones</span>
+</span>
+</div>
+<div id="playSos" class="level-item">
+<span class="icon-text">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg></span>
+<span class="is-hidden-mobile">Codigo Morse SOS</span>
+</span>
+</div>
+<div id="stopSos" class="level-item is-hidden">
+<span class="icon-text">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg></span>
+<span class="is-hidden-mobile">Detener el Codigo Morse SOS</span>
+</span>
+</div>
+</div>
+<div class="has-text-centered">
+<form id="options" class="is-hidden mt-5 mb-0">
+<div class="columns is-multiline is-mobile">
+<div class="column is-3-desktop is-6-touch">
+<div class="field">
+<label for="dash" class="label">Raya</label>
+<div class="control">
+<input class="input" type="text" value="-" id="dash">
+</div>
+</div>
+</div>
+<div class="column is-3-desktop is-6-touch">
+<div class="field">
+<label for="dot" class="label">Punto</label>
+<div class="control">
+<input class="input" type="text" value="." id="dot">
+</div>
+</div>
+</div>
+<div class="column is-3-desktop is-6-touch">
+<div class="field">
+<label for="space" class="label">Espacio</label>
+<div class="control">
+<input class="input" type="text" value="/" id="space">
+</div>
+</div>
+</div>
+<div class="column is-3-desktop is-6-touch">
+<div class="field">
+<label for="separator" class="label">Separador</label>
+<div class="control">
+<input class="input" type="text" value=" " id="separator">
+</div>
+</div>
+</div>
+<div class="column is-3-desktop is-6-touch">
+<div class="field ">
+<label for="alphabet" class="label">Alfabeto</label>
+<div class="control">
+<div class="select is-fullwidth">
+<select id="alphabet">
+<option selected value="1">Latino</option>
+<option value="5">Cirílico</option>
+<option value="6">Griego</option>
+<option value="7">Hebreo</option>
+<option value="8">Arabe</option>
+<option value="9">Persa</option>
+<option value="10">Japonés</option>
+<option value="11">Coreano</option>
+<option value="12">Tailandés</option>
+<option value="13">Chino</option>
+</select>
+</div>
+</div>
+</div>
+<div class="field is-hidden">
+<label for="alphabet-others" class="label"></label>
+<div class="control">
+<div class="select is-fullwidth">
+<select id="alphabet-others">
+<option value="2">Números</option>
+<option value="3">Puntuación</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div class="column is-3-desktop is-6-touch">
+<div class="field">
+<label for="unit" class="label">Período de la unidad</label>
+<div class="control">
+<input class="input" type="number" value="0.1" id="unit">
+</div>
+</div>
+</div>
+<div class="column is-3-desktop is-6-touch">
+<div class="field">
+<label for="frequency" class="label">Frecuencia (Hz)</label>
+<div class="control">
+<input class="input" type="number" value="500" id="frequency">
+</div>
+</div>
+</div>
+<div class="column is-3-desktop is-6-touch">
+<div class="field ">
+<label for="type" class="label">Forma de onda</label>
+<div class="control">
+<div class="select is-fullwidth">
+<select id="type">
+<option value="sine">Sinusoidal</option>
+<option value="square">Cuadrada</option>
+<option value="sawtooth">Sierra</option>
+<option value="triangle">Triángulo</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div id="a-mid-1" class="column is-12 has-level-margin">
+<div data-aaad='true' data-aa-adunit='/22247219933/MRSDCD_mob_300x250_mid_1'></div>
+<div data-aaad='true' data-aa-adunit='/22247219933/MRSDCD_970x250_mid_2'></div>
+</div>
+<div class="column is-12">
+<input type="hidden" value="Á, É, Í, Ñ, Ó, Ú" id="charactersExtra">
+<div class="content">
+<div data-header="Alfabeto Morse" id="characters" class="table-container"></div>
+</div>
+</div>
+<div id="a-mid-2" class="column is-12 has-level-margin">
+<div data-aaad='true' data-aa-adunit='/22247219933/MRSDCD_mob_300x250_mid_2'></div>
+<div data-aaad='true' data-aa-adunit='/22247219933/MRSDCD_970x250_mid_3'></div>
+</div>
+<div class="column is-12">
+<div itemscope itemtype="https://schema.org/FAQPage">
+<div class="content" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h2 class="is-size-5" itemprop="name">¿Qué es el código Morse?</h2>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">El código Morse es un sistema de codificación de caracteres que permite que los operadores puedan enviar mensajes utilizando pulsaciones eléctricas que pueden ser representadas como cortas o largas, o dicho de otra forma, como puntos y rallas.</p>
+</div>
+</div>
+<div class="content" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h2 class="is-size-5" itemprop="name">¿Quién y cuándo se inventó el código Morse?</h2>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">Samuel F. B. Morse y su asistente, Alfred Vail, son conocidos como los inventores del código Morse. Este sistema se desarrolló alrededor de 1830 y fue evolucionando en la década siguiente.</p>
+</div>
+</div>
+<div class="content" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h2 class="is-size-5" itemprop="name">¿Cuál fue el primer mensaje en código Morse?</h2>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">“What hath God wrought” (en Español: “Qué nos ha traído Dios”), fue el primer mensaje oficial enviado por Samuel F.B. Morse, el día 24 de mayo de 1844, para abrir la línea telegráfica Baltimore-Washington.</p>
+</div>
+</div>
+<div class="content" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h2 class="is-size-5" itemprop="name">¿Qué tipo de comunicación es el código Morse?</h2>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">En el pasado, el uso del código Morse estaba bastante extendido en el sector militar. Hoy en día, su utilización ha disminuido notablemente, pero todavía se emplea en la aviación, las actividades de radio amateur y la tecnología asistida.</p>
+</div>
+</div>
+<div class="content" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h2 class="is-size-5" itemprop="name">¿Qué es el Traductor Código Morse?</h2>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">El Traductor Código Morse permite que cualquier persona pueda traducir de código Morse a textode forma muy sencilla. Con el Traductor Morse Online, se puede convertir un texto escrito en cualquier idioma a código Morse. ¿Recuerdas el tono de los mensajes de Nokia? Si eres un nostálgico, trata de descodificar “…--…” y, luego, dale a play. ¿Y qué tal si codificas un mensaje secreto en Morse? Pues bien, el Traductor Código Morse está a tu servicio 7/24. Eso sí, tienes que tener acceso a una conexión de Internet y, por supuesto, ganas de aprender.</p>
+</div>
+</div>
+<div class="content" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h2 class="is-size-5" itemprop="name">¿Cómo usar el Traductor Código Morse?</h2>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">El código Morse se puede usar de para diferentes cosas como, por ejemplo, para descifrar mensajes en lápiz y papel, en señales de luz, en sonidos e, incluso, en partes del cuerpo como los ojos y los dedos.</p>
+</div>
+</div>
+<div class="content" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h2 class="is-size-5" itemprop="name">¿Cómo aprender código Morse?</h2>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">Puedes aprender a utilizar el código Morse estudiando y escuchando diferentes audios en Morse. También te serán de utilidad las muchas técnicas de memorización que podrás encontrar en numerosas páginas web. De todos modos, uno de los mejores sistemas para aprender Morse es el “Gboard keyboard”, una aplicación de teclado virtual desarrollada por Google. Con los ejercicios que te propone Google Creative Lab, puedes ejercitarte online y gratis.</p>
+</div>
+</div>
+<div class="content" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h2 class="is-size-5" itemprop="name">¿Cómo leer en código Morse?</h2>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">Si te encuentras en fase de aprendizaje y todavía no dominas el Morse, puedes ayudarte de las representaciones de los caracteres que encontrarás en la tabla con el alfabeto Morse. También puedes usar simplemente el Traductor Código Morse.</p>
+</div>
+</div>
+<div class="content" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h2 class="is-size-5" itemprop="name">¿Cómo traducir en código Morse?</h2>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">Si te gustaría traducir o descifrar mensajes escritos con código Morse pero no sabes leerlo, puedes utilizar Traductor Morse Online. Con el Traductor Código Morse, no tendrás ningún problema para poder hacerlo.</p>
+</div>
+</div>
+<div class="content" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h2 class="is-size-5" itemprop="name">¿Cómo se escribe en código Morse “SOS”?</h2>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">SOS en código Morse es: “... --- ...”</p>
+</div>
+</div>
+<div class="content" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h2 class="is-size-5" itemprop="name">¿Cómo se escribe en código Morse “te amo”?</h2>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p itemprop="text">Te amo en código Morse es: “- . / .- -- ---”</p>
+</div>
+</div>
+</div>
+</div>
+<div id="a-footer" class="column is-12 has-level-margin">
+<div data-aaad='true' data-aa-adunit='/22247219933/MRSDCD_mob_300x250_footer'></div>
+<div data-aaad='true' data-aa-adunit='/22247219933/MRSDCD_970x250_footer'></div>
+</div>
+<div class="column is-12">
+<figure class="image is-hidden-touch">
+<noscript class="loading-lazy">
+<img width="1920" height="1150" loading="lazy" src="https://morsedecoder.com/dist/images/codigo-morse.jpg" alt="Código Morse"/>
+</noscript>
+</figure>
+<figure class="image is-hidden-desktop">
+<noscript class="loading-lazy">
+<img width="1024" height="1559" loading="lazy" src="https://morsedecoder.com/dist/images/codigo-morse-touch.jpg" alt="Código Morse"/>
+</noscript>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<footer class="footer">
+<div class="container has-text-centered">
+<div class="columns is-vcentered">
+<div class="column">
+<a href="https://morsedecoder.com/privacy/es/" class="has-text-grey-dark">
+<span class="icon-text">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></span>
+<span>Política de Privacidad</span>
+</span>
+</a>
+</div>
+<div class="column">
+<a href="https://morsedecoder.com/terms/es/" id="show-terms" class="has-text-grey-dark">
+<span class="icon-text">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></span>
+<span>Términos de Uso</span>
+</span>
+</a>
+</div>
+</div>
+<p class="has-text-weight-semibold mt-4">Morse Decoder</p>
+<div class="is-relative mt-4">
+<button id="ot-sdk-btn" class="ot-sdk-show-settings"></button>
+</div>
+</div>
+</footer>
+<div id="embed" class="modal is-large" data-src="https://embed.morsedecoder.com/es/">
+<div id="embed-background" class="modal-background"></div>
+<div class="modal-content">
+<header class="modal-card-head">
+<p id="title-embed" class="modal-card-title">Insertar</p>
+</header>
+<section id="body-embed" class="modal-card-body">
+<div class="columns is-multiline is-mobile">
+<div class="column is-6">
+<div class="control">
+<div class="field">
+<label for="embed-width" class="label">Ancho</label>
+<div class="control">
+<input id="embed-width" class="input embed-input" type="number" value="600">
+</div>
+</div>
+</div>
+</div>
+<div class="column is-6">
+<div class="control">
+<div class="field">
+<label for="embed-height" class="label">Altura</label>
+<div class="control">
+<input id="embed-height" class="input embed-input" type="number" value="270">
+</div>
+</div>
+</div>
+</div>
+<div class="column is-12">
+<div class="control">
+<div class="field">
+<label for="embed-code" class="label">Código de inserción</label>
+<div class="control">
+<input id="embed-code" class="input" type="text" readonly>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="has-text-centered">
+<p id="embed-copied" class="is-italic is-hidden">¡Copiado!</p>
+<p class="has-text-weight-bold">Avance</p>
+</div>
+<div id="embed-container"></div>
+</section>
+<footer class="modal-card-foot is-end">
+<button id="embed-copy" class="button is-success">Copie el código insertado</button>
+<button id="embed-close" class="button is-danger">Cerrar</button>
+</footer>
+</div>
+</div>
+<div id="a-sticky">
+<div data-aaad='true' data-aa-adunit='/22247219933/MRSDCD_mob_320x100_stickyfooter'></div>
+<div data-aaad='true' data-aa-adunit='/22247219933/MRSDCD_728x90_stickyfooter'></div>
+</div>
+<script src="https://morsedecoder.com/dist/script.js?id=bde0306a3f0c11ea343bda0c7bc1d602" type="text/psajs" data-pagespeed-orig-index="3"></script>
+<script type="text/psajs" data-pagespeed-orig-index="4">(function(t){"use strict";var e=navigator.serviceWorker;if(!e)return this.UpUp=null,t;var o={"service-worker-url":"upup.sw.min.js","registration-options":{}},i=!1,s="font-weight: bold; color: #00f;";this.UpUp={start:function(t){this.addSettings(t),e.register(o["service-worker-url"],o["registration-options"]).then((function(t){i&&console.log("Service worker registration successful with scope: %c"+t.scope,s),(t.installing||e.controller||t.active).postMessage({action:"set-settings",settings:o})})).catch((function(t){i&&console.log("Service worker registration failed: %c"+t,s)}))},addSettings:function(e){"string"==typeof(e=e||{})&&(e={content:e}),["content","content-url","assets","service-worker-url","cache-version"].forEach((function(i){e[i]!==t&&(o[i]=e[i])})),e.scope!==t&&(o["registration-options"].scope=e.scope)},debug:function(t){i=!(0<arguments.length&&!t)}}}).call(this);</script>
+<script type="text/psajs" data-pagespeed-orig-index="5">if(window.location.protocol=='https:'){if('serviceWorker'in navigator&&UpUp!==null){UpUp.start({'content-url':'/offline.html','service-worker-url':'/upup.sw.min.js','assets':['/dist/embed.css','/dist/embed.js','/dist/icons/favicon.ico']});}}</script>
+<script type="text/javascript" src="/pagespeed_static/js_defer.I4cHjq6EEP.js"></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7185227c28dab3b5","version":"2021.12.0","r":1,"token":"472b224d1c19461188c1334b3f1bdcbf","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+</script>

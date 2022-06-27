@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<h1>PROGRAMA  cALcULO IMc</h1>
+<script>
+//saltando 5 lineas
+		function saltarLinea() {
+    document.write("<br>");
+     document.write("<br>");
+      document.write("<br>");
+       document.write("<pr>");
+        document.write("<br>");
+}
+//funcion imprimir
+		function imprimir(frase) {
+    document.write(frase);
+   	 saltarLinea();
+}
+//funcion calcular imc
+function calcularImc(peso1,altura1,nombre1,peso2,altura2,nombre2)
+{
+  imc1 =  peso1 / (altura1 *  altura1);
+  imc2 =  peso2 / (altura2 *  altura2);
+imprimir(" El promedio del imc calculado de "  +  nombre1 + " y " + nombre2 + " es: " + (imc1+imc2)/2 )
+
+}
+//IMc promedio entre Ronaldo y Mabel
+
+calcularImc(68,1.78,"Jsebastian",65,1.67,"lRafael");
+calcularImc(70,1.82,"Hdavid",70,1.69,"lSofia");
+
+
+
+</script>
